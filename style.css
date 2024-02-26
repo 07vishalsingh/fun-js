@@ -1,0 +1,16 @@
+body{
+    background-color: deepskyblue;
+}
+.vehicle {
+    position: absolute;
+    animation: move linear infinite;
+}
+
+@keyframes move {
+    from {
+        left: 0;
+    }
+    to {
+        right: 100%;
+    }
+}
